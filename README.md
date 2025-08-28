@@ -107,9 +107,12 @@ $ robots ~/local/path/to/robots.txt YourBot https://example.com/url
   user-agent 'YourBot' with URI 'https://example.com/url': ALLOWED
 ```
 > **Note**: If the robots file is empty, the parser also prints:
-`notice: robots file is empty so all user-agents are allowed`
+>
+> ```
+> notice: robots file is empty so all user-agents are allowed
+> ```
 
-> **Exit codes:** `0` = `ALLOWED`, `1` = `DISALLOWED`. 
+> **Exit codes:** `0` = ALLOWED, `1` = DISALLOWED
 
 ## Notes
 
